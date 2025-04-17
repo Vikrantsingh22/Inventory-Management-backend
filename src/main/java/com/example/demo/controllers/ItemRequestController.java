@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/requests")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://ivm-fsd-frontend.vercel.app")
 public class ItemRequestController {
     @Autowired
     private ItemRequestService itemRequestService;

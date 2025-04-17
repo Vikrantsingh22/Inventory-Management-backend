@@ -135,7 +135,7 @@ public class SecurityConfig {
         public CorsConfigurationSource corsConfigurationSource() {
                 CorsConfiguration configuration = new CorsConfiguration();
                 configuration.setAllowedOrigins(List.of(
-                                "http://localhost:4200", // Angular Frontend
+                                "https://ivm-fsd-frontend.vercel.app", // Angular Frontend
                                 "http://localhost:3000", // React Frontend
                                 "http://localhost:8080", // Backend
                                 "http://localhost:8081" // Additional services
@@ -163,7 +163,7 @@ public class SecurityConfig {
                 UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
                 CorsConfiguration config = new CorsConfiguration();
                 config.setAllowCredentials(true);
-                config.addAllowedOrigin("http://localhost:4200");
+                config.addAllowedOrigin("https://ivm-fsd-frontend.vercel.app");
                 config.addAllowedHeader("*");
                 config.addAllowedMethod("*");
                 source.registerCorsConfiguration("/**", config);

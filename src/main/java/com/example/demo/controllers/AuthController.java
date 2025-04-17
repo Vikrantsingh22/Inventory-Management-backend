@@ -32,7 +32,7 @@ import com.example.demo.services.UserService;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://ivm-fsd-frontend.vercel.app")
 public class AuthController {
     private static final Logger logger = LoggerFactory.getLogger(AuthController.class);
 
