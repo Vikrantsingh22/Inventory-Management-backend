@@ -1,4 +1,3 @@
-````markdown
 # Inventory Management Backend
 
 This project provides a **backend system** for inventory management. Built with Java, Maven, and Docker, it handles core operations like managing products, stock levels, orders, and user authentication.
@@ -27,7 +26,7 @@ This project provides a **backend system** for inventory management. Built with 
    ```bash
    git clone https://github.com/Vikrantsingh22/Inventory-Management-backend.git
    cd Inventory-Management-backend
-````
+
 
 2. **Build the project:**
 
@@ -139,9 +138,5 @@ Contributions are welcome! To propose changes:
 3. Commit your changes (`git commit -m "Add new feature"`)
 4. Push to your branch (`git push origin feature/new-feature`)
 5. Open a Pull Request
-
-## License
-
-Distributed under the **MIT License**. See `LICENSE` for details.
 
 
